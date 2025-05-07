@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: connect-db-api
+    runtime: docker
+    branch: main
+    repo: https://github.com/codecrafter2018/NewScopeApis.git
+    plan: free
+    region: oregon
+    autoDeploy: true
