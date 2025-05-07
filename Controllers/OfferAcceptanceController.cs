@@ -99,6 +99,7 @@ namespace Ultratechapis.Controllers
                     new { path = "/api/offeracceptancerate/connection-time", description = "View Dataverse connection time in ms" },
                     new { path = "/api/sob/loggedin", description = "Get SOB data for the currently logged-in user" },
                     new { path = "/api/sob/byuserid?userId=", description = "Get SOB data for a specific user by ID" },
+
                 }
             };
             return Ok(info);
